@@ -1,0 +1,31 @@
+A delegate is like a function pointer in C#.
+It allows us to pass a method as a parameter.
+Delegate is a type-safe function pointer used to reference and call methods dynamically.
+
+Where Are Delegates Used in Industry?
+1. Event Handling (Very Common) :
+                    In real applications like:
+                    Button click in Windows Forms
+                    API response handling
+                    Background task completion
+2. Callback Methods :
+                    One method needs to notify another method after completing work.
+                    Example: Payment success → send confirmation email.
+
+A lambda expression is a short way to write anonymous methods.
+Lambda expression is a shortcut syntax to write small methods inline.
+exp : (x, y) => x + y
+
+Q. What is LINQ Queries in C#?
+
+LINQ Full Form: Language Integrated Query
+LINQ allows us to query data (like SQL) directly in C#.
+LINQ is used to retrieve and manipulate data from collections, databases, XML, etc. using C# syntax.
+
+Q. Why Companies Use LINQ?
+Because it:
+✔ Reduces code
+✔ Improves readability
+✔ Reduces SQL dependency
+✔ Type-safe queries
+✔ Faster development
